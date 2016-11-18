@@ -43,7 +43,7 @@ import favicon from 'serve-favicon'
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(favicon(path.join(__dirname, '../client/_static', 'favicon.ico')));
+app.use(favicon(path.join(__dirname, '../client/_static', 'favicon.png')));
 
 // Route Requirements
 import api from './routes/api'
